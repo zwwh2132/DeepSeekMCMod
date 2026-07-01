@@ -1,0 +1,10 @@
+{
+    "format_version": "0.0.1",
+    "name": "ainpc",
+    "description": "跟指定NPC聊天。用法: /ainpc <名字> <问题>",
+    "permission_level": "any",
+    "args": [
+        {"name": "名字", "type": "str"},
+        {"name": "问题", "type": "str"}
+    ]
+}

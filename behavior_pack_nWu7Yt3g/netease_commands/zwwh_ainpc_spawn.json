@@ -1,0 +1,10 @@
+{
+    "format_version": "0.0.1",
+    "name": "ainpc_spawn",
+    "description": "生成一个NPC实体到当前位置。用法: /ainpc_spawn <模板> [名字]",
+    "permission_level": "any",
+    "args": [
+        {"name": "模板", "type": "str"},
+        {"name": "名字", "type": "str"}
+    ]
+}

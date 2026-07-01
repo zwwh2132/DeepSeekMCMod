@@ -1,0 +1,7 @@
+{
+    "format_version": "0.0.1",
+    "name": "ainpc_clear_all",
+    "description": "清除所有NPC的对话历史。用法: /ainpc_clear_all",
+    "permission_level": "any",
+    "args": []
+}

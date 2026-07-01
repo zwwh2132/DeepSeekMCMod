@@ -1,0 +1,7 @@
+{
+    "format_version": "0.0.1",
+    "name": "ainpc_list",
+    "description": "列出所有已生成的NPC实体",
+    "permission_level": "any",
+    "args": []
+}

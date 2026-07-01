@@ -1,0 +1,7 @@
+{
+    "format_version": "0.0.1",
+    "name": "ainpcs",
+    "description": "查看所有可用AI NPC列表",
+    "permission_level": "any",
+    "args": []
+}

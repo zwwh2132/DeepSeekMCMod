@@ -1,0 +1,9 @@
+{
+    "format_version": "0.0.1",
+    "name": "ainpc_despawn",
+    "description": "移除NPC实体，不指定名字则移除所有。用法: /ainpc_despawn [名字]",
+    "permission_level": "any",
+    "args": [
+        {"name": "名字", "type": "str"}
+    ]
+}

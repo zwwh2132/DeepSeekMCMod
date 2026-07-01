@@ -1,0 +1,9 @@
+{
+    "format_version": "0.0.1",
+    "name": "ainpc_clear",
+    "description": "清除某个NPC实体的对话历史。用法: /ainpc_clear <名字>",
+    "permission_level": "any",
+    "args": [
+        {"name": "名字", "type": "str"}
+    ]
+}

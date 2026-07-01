@@ -1,0 +1,7 @@
+{
+    "format_version": "0.0.1",
+    "name": "aiclear",
+    "description": "清除AI对话历史记录",
+    "permission_level": "any",
+    "args": []
+}

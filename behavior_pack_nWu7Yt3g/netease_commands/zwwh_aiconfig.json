@@ -1,0 +1,7 @@
+{
+    "format_version": "0.0.1",
+    "name": "aiconfig",
+    "description": "查看AI助手连接配置",
+    "permission_level": "any",
+    "args": []
+}
