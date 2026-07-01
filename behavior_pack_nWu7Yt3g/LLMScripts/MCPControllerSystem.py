@@ -222,7 +222,8 @@ class MCPControllerSystem(serverApi.GetServerSystemCls()):
 
         # 日志捕获 — 同时写入文件和控制台（不干扰原始输出）
         try:
-            log_path = r"D:\MCStudioDownload\work\z2710468140@163.com\Cpp\AddOn\LLMTestMod\mc_tools\mc_mod_log.txt"
+            # 使用相对路径，基于项目根目录
+            log_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))), "mc_tools", "mc_mod_log.txt")
             self._log_file = open(log_path, "a", 1)  # 行缓冲，减少磁盘写入
             self._log_file.write("\n===== MCPControllerSystem START =====\n")
             self._log_file.flush()

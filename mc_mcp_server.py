@@ -26,8 +26,9 @@ MOD_PORT = 19997
 SERVER_NAME = "mc_control"
 SERVER_VERSION = "1.0.0"
 
-# 日志文件路径（给 mc_read_log 使用）
-MOD_LOG_PATH = r"D:\MCStudioDownload\work\z2710468140@163.com\Cpp\AddOn\LLMTestMod\mc_tools\mc_mod_log.txt"
+# 日志文件路径（给 mc_read_log 使用），基于脚本所在目录的相对路径
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+MOD_LOG_PATH = os.path.join(_SCRIPT_DIR, "mc_tools", "mc_mod_log.txt")
 
 # ============================================================
 # TCP 通信（与 Mod 的 MCPControllerSystem）
